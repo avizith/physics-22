@@ -6,6 +6,7 @@ void findOrder(double lambda, double d) {
         printf("Out of the range. Please enter a valid number.\n");
         return;
     }
+    d= d * 1000;
 
 
     int m = (int)(d / lambda);
